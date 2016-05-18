@@ -1,0 +1,14 @@
+body {
+	line-height: 24px;
+}
+
+ul {
+	line-height: 52%;
+	height: 100px;
+}
+
+p {
+	font-size: 2em;
+	font-family: sans-serif;
+	line-height: 4;
+}

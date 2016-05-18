@@ -1,0 +1,33 @@
+{
+  "name": "postcss-lineheight-warn",
+  "version": "0.0.0",
+  "description": "A PostCSS plugin that logs warnings where unit values are used for line-height in the CSS.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "line-height",
+    "units"
+  ],
+  "author": "Ricardo Magalhães <magalhini@gmail.com>",
+  "license": "MIT",
+  "repository": "magalhini/postcss-lineheight-warn",
+  "bugs": {
+    "url": "https://github.com/magalhini/postcss-lineheight-warn/issues"
+  },
+  "homepage": "https://github.com/magalhini/postcss-lineheight-warn",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
